@@ -1,0 +1,166 @@
+.banner-section .slider-content .slide_desc,.our-services-sec .offer-heading,.paw-icon,.our-services-sec .service-heading,.our-services-sec .services-box .img-heading,
+.our-services-sec .services-box .icon-sec,.our-services-sec .services-box .icon-sec .block-editor-block-list__block,.our-services-sec .services-box .img-content,
+.our-services-sec .services-box .img-content .wp-block-buttons {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.banner-section .slider-image img{
+  height: 800px;
+}
+.our-services-sec .services-box .img-content .img-para{
+  margin: 15px 0;
+}
+.banner-section img.wp-block-cover__image-background{
+  object-fit: unset;
+}
+.banner-section .slider-content .slide_splice{
+  margin-bottom: 10px;
+}
+.banner-section .slider-content  .wp-block-column{
+  margin-top: 40%;
+  transform: translateY(-50%);
+  left: 15%;
+  right: 25%;
+  position: absolute;
+  z-index: 99;
+}
+.our-services-sec .small-img-sec img{
+  position: absolute;
+  top: -15%;
+  bottom: 0%; 
+  left: -46.5%;
+  right: auto;
+  z-index: 99;
+  margin-top: -5%;
+}
+.banner-section .slider-content .slider-btn,.our-services-sec .services-box .service-btn,.banner-section .slider-image,
+.our-services-sec .small-img-sec .wp-block-group__inner-container,.banner-section .slider-image img{
+  position: relative;
+}
+.our-services-sec .services-box .service-btn,.banner-section .slider-content .slider-btn{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.banner-section .slider-content .slider-btn .wp-block-button__link,.our-services-sec .services-box .service-btn .wp-block-button__link{
+  color: #fff !important;
+  border: 0px !important;
+  padding: 12px 45px 12px 10px;
+}
+.banner-section .slider-content .slider-btn .wp-block-button__link:after,.our-services-sec .services-box .service-btn .wp-block-button__link:after{
+  content: '>';
+  font-family: 'Font Awesome 5 Free';
+  position: absolute;
+  font-size: 15px !important;  
+  margin-left: 25px;
+  background: #fff;
+  padding: 5px 10px;
+  color: #000;
+  top: 16%;
+  border-radius: 6px;
+  transform: translateX(-50%);
+}
+.banner-section .slider-content .slider-btn .wp-block-button__link:hover,.our-services-sec .services-box .service-btn .wp-block-button__link:hover{
+  background: #FF642F !important;
+  color: #fff;
+}
+.banner-section .slider-content .slider-btn .wp-block-button__link:hover:after,.our-services-sec .services-box .service-btn .wp-block-button__linkwp-block-button__link:hover:after{
+  background-color: #000;
+  color: #fff;
+}
+.banner-section .slider-content .slide_splice{
+  line-height: 1.2;
+}
+.banner-section .slider-content .slide_splice:after{
+  background: url(assets/images/pet-image.png) no-repeat;
+  content: "";
+  padding: 100px;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  width: 100%;
+  overflow: hidden;
+}
+.banner-section .slider-image {
+    transform: translate(22%, -15%);
+}
+.banner-section .slider-image img {
+    border-radius: 50% 0 50% 50%;
+    border: 5px solid #fff;
+}
+.banner-section .slider-image:before {
+    content: " ";
+    position: absolute;
+    inset: -22px;
+    border-radius: 50% 0 50% 50%;
+    background-color: #ff642f;
+    transform: translate(-10px, -34px);
+}
+.banner-section .slider-img-sec{
+  margin: 0 auto;
+  top: 55%;
+  right: -58% !important;
+  max-width: 400px !important;
+  position: absolute;
+  left: 0;
+  margin-right: 15% !important;
+  margin-left: 36% !important;
+}
+.banner-section .slider-img-sec1 img,.banner-section .slider-img-sec2 img,.banner-section .slider-img-sec3 img{
+  object-fit: cover;  
+  position: absolute;
+  border: 4px solid #fff;
+}
+.banner-section .slider-img-sec1:hover img,.banner-section .slider-img-sec2:hover img,.banner-section .slider-img-sec3:hover img{
+  border: 4px solid #ff642f;
+}
+.banner-section .slider-img-sec1 img{
+  right: 9em;
+  bottom: 100%;
+}
+.banner-section .slider-img-sec2 img{
+  right: 12em;
+  bottom: -4%;
+}
+.banner-section .slider-img-sec3 img{
+  right: 13em;
+  top: 100%;
+}
+.our-services-sec{
+  margin-top: -20%;
+}
+.paw-icon{
+  width: 15%;
+}
+.our-services-sec .services-box{
+  padding: 0 10%;
+  gap: 2em;
+}
+.our-services-sec .services-box .img-heading:before{
+  position: absolute;
+  background-color: #000;
+  left: 0;
+  top: 70%;
+  content: "";
+  width: 50px;
+  height: 3px;
+  margin: 12px auto 0;  
+}
+.our-services-sec .services-box .box:hover{
+  background-color: #FF642F;
+  border-radius: 10px;
+  padding: 20px;
+}
+.our-services-sec .services-box .box:hover p{
+  color: #fff !important;
+}
+.our-services-sec .services-box .box:hover .img-heading:before{
+  background-color: #fff !important;
+}
+.our-services-sec .services-box .box:hover .icon-sec i,.our-services-sec .services-box .box:hover .service-btn .wp-block-button__link{
+  background-color: #fff !important;
+  color: #FF642F !important;
+}
+.our-services-sec .services-box .box:hover .service-btn .wp-block-button__link:after,.banner-section .slider-content .slider-btn a:hover{
+  background-color: #FF642F !important;
+  color: #fff !important;
+} 
